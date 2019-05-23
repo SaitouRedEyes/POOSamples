@@ -24,8 +24,6 @@ namespace POO1
 
             labelEve.Text = eve.name;
             labelEveNumber.Text = eve.registrationNumber;
-
-            //Item i1 = new Item("AK-47", adam);
         }
     }
 }
