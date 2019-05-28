@@ -20,5 +20,10 @@ namespace PolimorfismSample
         {
             text = newText.Text;
         }
+
+        public void Talk()
+        {
+            text = "TO DOIDÃOOOO!!";
+        }
     }
 }

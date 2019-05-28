@@ -15,6 +15,10 @@ namespace PolimorfismSample
         public Form1()
         {
             InitializeComponent();
+
+            NPC npc1 = new NPC();
+            npc1.Talk(tbArroz);
+            
         }
     }
 }

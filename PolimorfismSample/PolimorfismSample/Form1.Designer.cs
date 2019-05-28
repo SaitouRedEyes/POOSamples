@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.tbArroz = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // tbArroz
+            // 
+            this.tbArroz.Location = new System.Drawing.Point(78, 32);
+            this.tbArroz.Name = "tbArroz";
+            this.tbArroz.Size = new System.Drawing.Size(100, 20);
+            this.tbArroz.TabIndex = 0;
+            this.tbArroz.Text = "Arroz";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.tbArroz);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox tbArroz;
     }
 }
 

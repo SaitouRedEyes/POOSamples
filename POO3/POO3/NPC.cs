@@ -5,19 +5,23 @@ namespace POO3
     {
         private string text;
 
-        public NPC()
+        public NPC(string text)
         {
-            text = "Pega a galinha!!!!";
+            this.text = text;
         }
 
         public override void Update()
         {
+            //Atualizo lógicamente o objeto
+            //posX = 80;
+            //Atualizo graficamente o objeto
             Draw();
         }
 
         public void NextText(string newText)
         {
-            if(!newText.Equals(""))
+          //if(!newText.Equals(""))
+            if(newText != "")
             {
                 text = newText;
             }

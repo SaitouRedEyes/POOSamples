@@ -9,14 +9,21 @@ namespace POO3
         {
             InitializeComponent();
 
-            Player p1 = new Player("JAMV");
-            NPC n1 = new NPC();
+            Player p1 = new Player("JAMV", "c://Image/Mago.jpg");
+            Player p2 = new Player("Alisson", "c://Image/Arqueiro.jpg");
+
+            NPC n1 = new NPC("Pega a galinhaaa");
+            NPC n2 = new NPC("Quer comprar algo??");
 
             p1.Update();
+            p2.Update();
             n1.Update();
+            n2.Update();
 
-            p1.CouldLevelUp(40);
+            //batalha fake que gera xp
+            p1.CouldLevelUp(5);
             n1.NextText("SHOOOOWWWWW....TOMA PÓTE!!");
+            n1.NextText("OBRIGADOOO");
         }
     }
 }
